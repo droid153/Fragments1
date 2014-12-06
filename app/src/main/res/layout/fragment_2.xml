@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/frag2"
+    android:layout_height="100dp"
+    android:background="#ff0000">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:layout_weight="1"
+        android:id="@+id/buttonFragTwo" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fragment two"
+        android:layout_weight="1"
+        android:id="@+id/textViewFragTwo"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:src="@drawable/ic_launcher"-->
+        <!--android:id="@+id/imageFrag2"/>-->
+
+</LinearLayout>
